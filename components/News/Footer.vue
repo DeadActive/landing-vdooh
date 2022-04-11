@@ -4,10 +4,10 @@
             >© 2019—2021 ООО «ВДООХ»</span
         >
         <div class="flex justify-center items-center underline">
-            <a href="">Правила аукциона</a>
+            <a href="/rules">Правила аукциона</a>
         </div>
         <div class="flex justify-center items-center underline">
-            <a href="">Политика конфиденциальности</a>
+            <a href="/policy">Политика конфиденциальности</a>
         </div>
         <div class="flex flex-col items-center lg:items-start">
             <span> Москва, Ольховская ул. д.4 к.1, 105066 </span>
