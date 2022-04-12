@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-1 lg:grid-cols-5 mt-8 md:mt-32 gap-4">
+    <div class="grid grid-cols-1 lg:grid-cols-5 mt-8 md:mt-16 gap-4">
         <span class="flex justify-center items-center"
             >© 2019—2021 ООО «ВДООХ»</span
         >
