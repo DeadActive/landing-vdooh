@@ -26,7 +26,7 @@ export default {
 
 <style>
 #news {
-    background: #000;
+    background: url("/img/bg-news.png") no-repeat;
 
     @media (min-width: 768px) {
         background: linear-gradient(

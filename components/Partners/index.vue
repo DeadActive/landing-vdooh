@@ -6,10 +6,10 @@
             Наши партнеры/Наши клиенты
         </h1>
         <div
-            class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 mx-4"
+            class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-4 gap-y-8"
         >
             <div class="flex justify-center" v-for="img in images" :key="img">
-                <img :src="img" alt="" />
+                <img :src="img" alt="" class="partner-img" />
             </div>
         </div>
     </div>
@@ -21,11 +21,24 @@ export default {
         return {
             images: Array.from(
                 { length: 12 },
-                (v, i) => `/img/partners/partner (${i + 1}).png`
+                (v, i) => `/img/partners/partner (${i + 1}).svg`
             ),
         };
     },
 };
 </script>
 
-<style></style>
+<style>
+.partner-img {
+    filter: none;
+
+    @media (min-width: 768px) {
+        filter: grayscale(1);
+        transition: 0.3s ease all;
+    }
+}
+
+.partner-img:hover {
+    filter: grayscale(0);
+}
+</style>

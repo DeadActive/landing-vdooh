@@ -41,7 +41,7 @@ export default {};
 
 <style>
 #video {
-    background: #000;
+    background: url("/img/bg-video.png") no-repeat;
 
     @media (min-width: 768px) {
         background: linear-gradient(
