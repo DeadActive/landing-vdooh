@@ -1,7 +1,7 @@
 <template>
     <div class="grid grid-cols-1 lg:grid-cols-5 mt-8 md:mt-16 gap-4">
         <span class="flex justify-center items-center"
-            >© 2019—2021 ООО «ВДООХ»</span
+            >© 2019—2022 ООО «ВДООХ»</span
         >
         <div class="flex justify-center items-center underline">
             <a href="/rules">Правила аукциона</a>
