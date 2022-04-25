@@ -270,8 +270,8 @@
                 <li>
                     Актуальная версия Политики в свободном доступе расположена в
                     сети Интернет по адресу&nbsp;<a
-                        href="https://vdooh.com/policy.html"
-                        >https://vdooh.com/policy.html</a
+                        href="https://vdooh.com/policy"
+                        >https://vdooh.com/policy</a
                     >.
                 </li>
             </ol>
