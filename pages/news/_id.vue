@@ -67,6 +67,15 @@ export default {
     }
 }
 
+.nuxt-content h2 {
+    font-size: 18px;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    @media (min-width: 768px) {
+        font-size: 22px;
+    }
+}
+
 .nuxt-content p {
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -74,6 +83,15 @@ export default {
 
 .nuxt-content a {
     word-break: break-all;
+}
+
+.nuxt-content blockquote p {
+    margin: 0;
+}
+
+.nuxt-content blockquote {
+    background-color: #f6f6f6;
+    padding: 1rem;
 }
 
 .nuxt-content img {

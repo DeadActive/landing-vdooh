@@ -1,8 +1,10 @@
 <template>
     <div>
         <div class="flex flex-col p-6 bg-white text-black rounded-lg mx-4 mb-8">
-            <img :src="content.img" alt="" />
-            <span class="text-lg mt-6">{{ content.title }}</span>
+            <img :src="content.img" alt="" class="min-h-[135px] aspect-[3/2]" />
+            <span class="text-lg mt-6 h-36 overflow-hidden">{{
+                content.title
+            }}</span>
             <span class="text-lg mt-2 text-gray-500">{{
                 content.createdAt.split("T")[0]
             }}</span>
