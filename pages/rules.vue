@@ -149,6 +149,11 @@ export default {
         Navigation,
         News,
     },
+    head() {
+        return {
+            title: "VDOOH - Правила проведения аукциона",
+        };
+    },
 };
 </script>
 

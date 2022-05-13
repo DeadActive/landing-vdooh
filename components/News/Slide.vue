@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <nuxt-link :to="content.path">
         <div class="flex flex-col p-6 bg-white text-black rounded-lg mx-4 mb-8">
             <img :src="content.img" alt="" class="min-h-[135px] aspect-[3/2]" />
             <span class="text-lg mt-6 h-36 overflow-hidden">{{
@@ -12,7 +12,7 @@
                 Подробнее →
             </nuxt-link>
         </div>
-    </div>
+    </nuxt-link>
 </template>
 
 <script>

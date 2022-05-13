@@ -657,6 +657,11 @@ export default {
         Navigation,
         News,
     },
+    head() {
+        return {
+            title: "VDOOH - Публичная оферта",
+        };
+    },
 };
 </script>
 
