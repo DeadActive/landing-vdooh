@@ -6,7 +6,7 @@
             <iframe
                 class="w-full lg:col-span-3"
                 style="aspect-ratio: 16/9"
-                src="https://www.youtube.com/embed/7JlXdHUsKc0"
+                src="https://www.youtube.com/embed/ZCC3yqWpuvk"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
