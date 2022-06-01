@@ -3,17 +3,13 @@
         class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 md:my-auto mt-16 mb-auto h-full"
     >
         <div class="flex flex-col justify-center h-full px-4">
-            <h1 class="text-5xl font-bold">DSP VDOOH</h1>
-            <span class="mt-8"
-                >платформа для размещения рекламы на цифровых экранах. Быстрый
-                запуск, гибкое управление, медиапланирование, контроль бюджетов
-                и online-статистика в личном кабинете</span
-            >
+            <h1 class="text-5xl font-bold">{{ title }}</h1>
+            <span class="mt-8" v-html="offer"></span>
             <button
                 class="hidden md:block bg-purple hover:bg-purple-light transition-colors px-9 py-6 rounded-full mt-16 max-w-[370px] font-bold text-sm"
             >
                 <a href="https://desk.vdooh.com/register">
-                    Зарегистрироваться как рекламодатель
+                    Зарегистрироваться
                 </a>
             </button>
         </div>
@@ -30,7 +26,24 @@
 </template>
 
 <script>
-export default {};
+export default {
+    computed: {
+        title() {
+            return this.$route.path === "/alpha"
+                ? "Партнерская программа Альфа-Банк и VDOOH"
+                : this.$route.path === "/tinkof"
+                ? "Партнерская программа Тинькоф и VDOOH"
+                : "DSP VDOOH";
+        },
+        offer() {
+            return this.$route.path === "/alpha"
+                ? "Пополни баланс личного кабинета VDOOH на <b>1 000</b> и получи купон на сумму <b>10 000 ₽</b>"
+                : this.$route.path === "/tinkof"
+                ? "Уникальное предложение для клиентов Тинькофф банка «удвоение первого пополнения баланса на сумму до <b>50 000 ₽</b>"
+                : "платформа для размещения рекламы на цифровых экранах. Быстрый запуск, гибкое управление, медиапланирование, контроль бюджетов и online-статистика в личном кабинете";
+        },
+    },
+};
 </script>
 
 <style></style>

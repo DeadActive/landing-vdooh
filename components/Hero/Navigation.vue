@@ -18,7 +18,7 @@
         </div>
         <div class="grid grid-cols-4">
             <a href="/" class="lg:block hidden">
-                <img src="/img/logo.png" alt="" />
+                <img :src="logo" alt="" />
             </a>
             <button
                 class="block lg:hidden ml-4 ignore"
@@ -61,6 +61,15 @@ export default {
     },
     async mounted() {
         this.menu = (await this.$content("menu").fetch()).items;
+    },
+    computed: {
+        logo() {
+            return this.$route.path === "/alpha"
+                ? "/img/logo-alpha.png"
+                : this.$route.path === "/tinkof"
+                ? "/img/logo-tinkof.png"
+                : "/img/logo.png";
+        },
     },
 };
 </script>
