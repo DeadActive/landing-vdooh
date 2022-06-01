@@ -11,7 +11,7 @@
         <h3 class="md:col-span-3 text-base text-center mt-2 mb-8 md:mb-16">
             Почему работать с нами выгодно
         </h3>
-        <div class="grid grid-cols-5">
+        <div class="grid grid-cols-2 lg:grid-cols-5">
             <div class="flex flex-col items-center gap-6">
                 <div class="w-24 h-24 flex justify-center items-center">
                     <img src="/img/benefit (1).png" alt="" />
