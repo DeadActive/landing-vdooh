@@ -26,7 +26,9 @@
             >
                 <img src="/img/burger.svg" alt="" class="ignore" />
             </button>
-            <div class="flex justify-between align-middle col-span-2">
+            <div
+                class="flex gap-4 xl:gap-8 align-middle col-span-2 justify-center ml-4"
+            >
                 <button
                     v-for="(item, index) in menu"
                     :key="index"
