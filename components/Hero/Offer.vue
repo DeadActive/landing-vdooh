@@ -3,7 +3,7 @@
         class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 md:my-auto mt-16 mb-auto h-full"
     >
         <div class="flex flex-col justify-center h-full px-4">
-            <h1 class="text-5xl font-bold">{{ title }}</h1>
+            <h1 class="text-5xl font-bold" v-html="title"></h1>
             <span class="mt-8" v-html="offer"></span>
             <button
                 class="hidden md:block bg-purple hover:bg-purple-light transition-colors px-9 py-6 rounded-full mt-16 max-w-[370px] font-bold text-sm"
@@ -30,9 +30,9 @@ export default {
     computed: {
         title() {
             return this.$route.path === "/alpha"
-                ? "Партнерская программа Альфа-Банк и VDOOH"
+                ? "Партнерская&nbsp;программа Альфа-Банк и VDOOH"
                 : this.$route.path === "/tinkof"
-                ? "Партнерская программа Тинькоф и VDOOH"
+                ? "Партнерская&nbsp;программа Тинькоф и VDOOH"
                 : "DSP VDOOH";
         },
         offer() {
