@@ -68,7 +68,7 @@ export default {
         logo() {
             return this.$route.path === "/alpha"
                 ? "/img/logo-alpha.png"
-                : this.$route.path === "/tinkof"
+                : this.$route.path === "/tinkoff"
                 ? "/img/logo-tinkof.png"
                 : "/img/logo.png";
         },

@@ -31,14 +31,14 @@ export default {
         title() {
             return this.$route.path === "/alpha"
                 ? "Партнерская&nbsp;программа Альфа-Банк и VDOOH"
-                : this.$route.path === "/tinkof"
+                : this.$route.path === "/tinkoff"
                 ? "Партнерская&nbsp;программа Тинькофф и VDOOH"
                 : "DSP VDOOH";
         },
         offer() {
             return this.$route.path === "/alpha"
                 ? "Пополни баланс личного кабинета VDOOH на <span><b>1&nbsp;000</b></span> и получи купон на сумму <span><b>10&nbsp;000&nbsp;₽</b></span>"
-                : this.$route.path === "/tinkof"
+                : this.$route.path === "/tinkoff"
                 ? "Уникальное предложение для клиентов Тинькофф банка «удвоение первого пополнения баланса на сумму до <span><b>50&nbsp;000&nbsp;₽</b></span>"
                 : "платформа для размещения рекламы на цифровых экранах. Быстрый запуск, гибкое управление, медиапланирование, контроль бюджетов и online-статистика в личном кабинете";
         },
