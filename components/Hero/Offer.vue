@@ -32,7 +32,7 @@ export default {
             return this.$route.path === "/alpha"
                 ? "Партнерская&nbsp;программа Альфа-Банк и VDOOH"
                 : this.$route.path === "/tinkof"
-                ? "Партнерская&nbsp;программа Тинькоф и VDOOH"
+                ? "Партнерская&nbsp;программа Тинькофф и VDOOH"
                 : "DSP VDOOH";
         },
         offer() {
