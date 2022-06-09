@@ -1,5 +1,5 @@
 <template>
-    <div id="news">
+    <div id="news" class="overflow-x-hidden">
         <div class="container mx-auto text-white py-8 md:pt-[120px]">
             <h1
                 class="text-[32px] md:text-[44px] md:col-span-3 text-center font-bold mx-4 mb-6 md:mb-12"

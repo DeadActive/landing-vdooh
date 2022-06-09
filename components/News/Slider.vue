@@ -88,4 +88,8 @@ export default {
 .white-dots li.slick-active {
     opacity: 1;
 }
+
+#news .slick-list {
+    overflow: visible !important;
+}
 </style>
