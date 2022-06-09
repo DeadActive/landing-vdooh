@@ -101,7 +101,7 @@
                 Бюджет
             </span>
             <span class="text-[40px] text-gradient font-bold">
-                {{ format(cost) }} ₽/ в день
+                {{ format(cost) }} ₽ в день
             </span>
             <a
                 href="https://desk.vdooh.com/register"
