@@ -48,10 +48,14 @@ export default {
         "~css/main.css",
         "vue-slick-carousel/dist/vue-slick-carousel.css",
         "vue-slick-carousel/dist/vue-slick-carousel-theme.css",
+        "vue-select/dist/vue-select.css",
     ],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-    plugins: [{ src: "~/plugins/v-click-outside" }],
+    plugins: [
+        { src: "~/plugins/v-click-outside" },
+        { src: "~/plugins/vue-select" },
+    ],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
     components: true,

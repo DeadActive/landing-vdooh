@@ -1,6 +1,7 @@
 <template>
     <div class="text-white">
         <Hero />
+        <Calculator />
         <Benefits />
         <Video />
         <HIW />
