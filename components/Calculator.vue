@@ -10,8 +10,10 @@
             <h1 class="text-[44px] text-gradient">
                 Калькулятор рекламной кампании*
             </h1>
-            <div class="grid grid-cols-3 w-full px-16 pt-16">
-                <div class="flex flex-col gap-2 max-w-[270px]">
+            <div
+                class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-0 w-full px-0 md:px-16 pt-16"
+            >
+                <div class="flex flex-col gap-2 lg:max-w-[270px]">
                     <span class="text-lg text-gradient font-bold"
                         >Выбор закупки</span
                     >
@@ -26,7 +28,7 @@
                         </v-select>
                     </div>
                 </div>
-                <div class="flex flex-col gap-2 max-w-[270px]">
+                <div class="flex flex-col gap-2 lg:max-w-[270px]">
                     <span class="text-lg text-gradient font-bold"
                         >Выбор города</span
                     >
@@ -41,7 +43,7 @@
                         </v-select>
                     </div>
                 </div>
-                <div class="flex flex-col gap-2 max-w-[420px]">
+                <div class="flex flex-col gap-2 lg:max-w-[420px]">
                     <span class="text-lg text-gradient font-bold pb-6">{{
                         amountTitle
                     }}</span>
@@ -101,13 +103,21 @@
             <span class="text-[40px] text-gradient font-bold">
                 {{ format(cost) }} ₽
             </span>
-            <a href="https://desk.vdooh.com/register" class="mt-10">
+            <a
+                href="https://desk.vdooh.com/register"
+                class="mt-10 w-full md:w-auto"
+            >
                 <button
-                    class="bg-purple hover:bg-purple-light transition-all font-bold duration-300 text-white text-sm rounded-full flex justify-center items-center py-6 px-16"
+                    class="w-full bg-purple hover:bg-purple-light transition-all font-bold duration-300 text-white text-sm rounded-full flex justify-center items-center py-6 px-6 md:px-16"
                 >
                     Запустить рекламную кампанию
                 </button>
             </a>
+            <div class="w-full px-0 md:px-16 mt-7">
+                <span class="text-base text-black self-start">
+                    *Примерное значение, может меняться
+                </span>
+            </div>
         </div>
     </section>
 </template>
