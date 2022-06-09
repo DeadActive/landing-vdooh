@@ -101,7 +101,7 @@
                 Бюджет
             </span>
             <span class="text-[40px] text-gradient font-bold">
-                {{ format(cost) }} ₽
+                {{ format(cost) }} ₽/ в день
             </span>
             <a
                 href="https://desk.vdooh.com/register"
@@ -135,7 +135,7 @@ export default {
                 { name: "По контактам", value: "CON" },
             ],
             cities,
-            type: { name: "По заказам", value: "OTS" },
+            type: { name: "По показам", value: "OTS" },
             city: cities[0],
             amount: 5,
             min: 0,
@@ -159,7 +159,7 @@ export default {
             return (this.amount / 1000) * this.city.cost_contact;
         },
         views() {
-            return 30 * 14 * 30 * this.amount;
+            return 30 * 14 * this.amount;
         },
         contacts() {
             return ~~(this.views / this.city.ots);
