@@ -52,12 +52,12 @@
                         <span
                             class="text-sm font-bold text-gradient absolute left-0 -top-6"
                         >
-                            {{ min }}
+                            {{ format(min) }}
                         </span>
                         <span
                             class="text-sm font-bold text-gradient absolute right-0 -top-6"
                         >
-                            {{ max }}
+                            {{ format(max) }}
                         </span>
                         <span
                             class="text-sm font-bold text-purple absolute left-0 -bottom-7 w-9 text-center"
@@ -68,7 +68,7 @@
                                 }px)`,
                             }"
                         >
-                            {{ amount }}
+                            {{ format(amount) }}
                         </span>
                         <input
                             type="range"
@@ -166,7 +166,7 @@ export default {
         cost() {
             if (this.type.value === "OTS")
                 return this.views * this.city.cost_view;
-            return (this.amount / 1000) * this.city.cost_contact;
+            return Math.round((this.amount / 1000) * this.city.cost_contact);
         },
         views() {
             return 30 * 14 * this.amount;
