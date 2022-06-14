@@ -1,173 +1,173 @@
 [
-  {
-    "name": "Москва",
-    "value": "Москва",
-    "count": 359,
-    "cost_view": 3,
-    "cost_contact": 90,
-    "ots": 43.26679364,
-    "max": 200240
-  },
-  {
-    "name": "Санкт-Петербург",
-    "value": "Спб",
-    "count": 127,
-    "cost_view": 1.5,
-    "cost_contact": 60,
-    "ots": 26.39699074,
-    "max": 110740
-  },
-  {
-    "name": "Екатеринбург",
-    "value": "Екат",
-    "count": 58,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 22.06497327,
-    "max": 100680
-  },
-  {
-    "name": "Новосибирск",
-    "value": "Новосиб",
-    "count": 24,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 27.04443158,
-    "max": 76040
-  },
-  {
-    "name": "Саратов",
-    "value": "Саратов",
-    "count": 20,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 19.61348684,
-    "max": 57400
-  },
-  {
-    "name": "Уфа",
-    "value": "Уфа",
-    "count": 20,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 24.60250999,
-    "max": 77350
-  },
-  {
-    "name": "Сочи",
-    "value": "Сочи",
-    "count": 19,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 28.65837191,
-    "max": 59860
-  },
-  {
-    "name": "Нижний Новгород",
-    "value": "НН",
-    "count": 19,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 20.13919347,
-    "max": 52890
-  },
-  {
-    "name": "Хабаровск",
-    "value": "Хабаровск",
-    "count": 15,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 19.80246914,
-    "max": 56900
-  },
-  {
-    "name": "Красноярск",
-    "value": "Красноярск",
-    "count": 15,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 29.19013632,
-    "max": 72360
-  },
-  {
-    "name": "Барнаул",
-    "value": "Барнаул",
-    "count": 14,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 15.06944444,
-    "max": 26040
-  },
-  {
-    "name": "Воронеж",
-    "value": "Воронеж",
-    "count": 12,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 38.05324074,
-    "max": 110530
-  },
-  {
-    "name": "Волгоград",
-    "value": "Волгоград",
-    "count": 10,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 20.3441358,
-    "max": 47150
-  },
-  {
-    "name": "Челябинск",
-    "value": "Челябинск",
-    "count": 8,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 23.10691551,
-    "max": 60580
-  },
-  {
-    "name": "Краснодар",
-    "value": "Краснодар",
-    "count": 7,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 28.65837191,
-    "max": 59860
-  },
-  {
-    "name": "Тюмень",
-    "value": "Тюмень",
-    "count": 7,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 22.06497327,
-    "max": 100680
-  },
-  {
-    "name": "Тамбов",
-    "value": "Тамбов",
-    "count": 5,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 19.61348684,
-    "max": 57400
-  },
-  {
-    "name": "Иркутск",
-    "value": "Иркутск",
-    "count": 2,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 20.25752315,
-    "max": 35190
-  },
-  {
-    "name": "Самара",
-    "value": "Самара",
-    "count": 2,
-    "cost_view": 0.8,
-    "cost_contact": 40,
-    "ots": 24.60250999,
-    "max": 77350
-  }
+    {
+        "name": "Москва",
+        "value": "Москва",
+        "count": 359,
+        "cost_view": 3,
+        "cost_contact": 90,
+        "ots": 43.26679364,
+        "max": 100000
+    },
+    {
+        "name": "Санкт-Петербург",
+        "value": "Спб",
+        "count": 127,
+        "cost_view": 1.5,
+        "cost_contact": 60,
+        "ots": 26.39699074,
+        "max": 70000
+    },
+    {
+        "name": "Екатеринбург",
+        "value": "Екат",
+        "count": 58,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 22.06497327,
+        "max": 50000
+    },
+    {
+        "name": "Новосибирск",
+        "value": "Новосиб",
+        "count": 24,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 27.04443158,
+        "max": 50000
+    },
+    {
+        "name": "Саратов",
+        "value": "Саратов",
+        "count": 20,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 19.61348684,
+        "max": 50000
+    },
+    {
+        "name": "Уфа",
+        "value": "Уфа",
+        "count": 20,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 24.60250999,
+        "max": 50000
+    },
+    {
+        "name": "Сочи",
+        "value": "Сочи",
+        "count": 19,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 28.65837191,
+        "max": 50000
+    },
+    {
+        "name": "Нижний Новгород",
+        "value": "НН",
+        "count": 19,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 20.13919347,
+        "max": 50000
+    },
+    {
+        "name": "Хабаровск",
+        "value": "Хабаровск",
+        "count": 15,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 19.80246914,
+        "max": 50000
+    },
+    {
+        "name": "Красноярск",
+        "value": "Красноярск",
+        "count": 15,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 29.19013632,
+        "max": 50000
+    },
+    {
+        "name": "Барнаул",
+        "value": "Барнаул",
+        "count": 14,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 15.06944444,
+        "max": 50000
+    },
+    {
+        "name": "Воронеж",
+        "value": "Воронеж",
+        "count": 12,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 38.05324074,
+        "max": 50000
+    },
+    {
+        "name": "Волгоград",
+        "value": "Волгоград",
+        "count": 10,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 20.3441358,
+        "max": 50000
+    },
+    {
+        "name": "Челябинск",
+        "value": "Челябинск",
+        "count": 8,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 23.10691551,
+        "max": 50000
+    },
+    {
+        "name": "Краснодар",
+        "value": "Краснодар",
+        "count": 7,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 28.65837191,
+        "max": 50000
+    },
+    {
+        "name": "Тюмень",
+        "value": "Тюмень",
+        "count": 7,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 22.06497327,
+        "max": 50000
+    },
+    {
+        "name": "Тамбов",
+        "value": "Тамбов",
+        "count": 5,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 19.61348684,
+        "max": 50000
+    },
+    {
+        "name": "Иркутск",
+        "value": "Иркутск",
+        "count": 2,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 20.25752315,
+        "max": 50000
+    },
+    {
+        "name": "Самара",
+        "value": "Самара",
+        "count": 2,
+        "cost_view": 0.8,
+        "cost_contact": 40,
+        "ots": 24.60250999,
+        "max": 50000
+    }
 ]

@@ -24,6 +24,7 @@
                             :appendToBody="true"
                             :clearable="false"
                             :options="types"
+                            :searchable="false"
                         >
                         </v-select>
                     </div>
@@ -86,7 +87,7 @@
             </div>
             <div class="flex gap-8 mt-8" v-if="type.value === 'OTS'">
                 <div class="text-black text-2xl">
-                    <span>Показы:</span>
+                    <span>Показы**:</span>
                     <span class="font-bold">{{ format(views) }}</span>
                 </div>
                 <div class="text-black text-2xl">
@@ -116,6 +117,15 @@
             <div class="w-full px-0 md:px-16 mt-7">
                 <span class="text-base text-black self-start">
                     *Примерное значение, может меняться
+                </span>
+            </div>
+            <div class="w-full px-0 md:px-16">
+                <span
+                    class="text-base text-black self-start"
+                    v-if="type.value === 'OTS'"
+                >
+                    **При настройки рекламной кампании с 8 утра до 23 вечера, 30
+                    показов в час
                 </span>
             </div>
         </div>
@@ -162,7 +172,7 @@ export default {
             return 30 * 14 * this.amount;
         },
         contacts() {
-            return ~~(this.views / this.city.ots);
+            return ~~(this.views * this.city.ots);
         },
         max() {
             return this.type.value === "OTS" ? this.city.count : this.city.max;
